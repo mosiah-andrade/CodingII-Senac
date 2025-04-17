@@ -1,0 +1,81 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-left: 5em; */
+    /* margin-right: 5rem; */
+    background-color: #F5FAFC;
+    font-size: 1.1em;
+}
+:root{
+    --laranja:#F07305;
+    --azul-700: #002D70;
+    --azul-200: #95CAE8;
+    --azul-100: #F5FAFC;
+    --branco: #FFFFFF;
+}
+img.foto {
+    width: 8em;
+}
+
+h1{
+    color: #002D70;
+    font-size: 3.5rem;;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: #F07305;
+    margin-top: -2rem;
+    text-shadow: #e3af77 2px 2px 15px;
+}
+h2{
+    /* font-family: 'Courier New', Courier, monospace; */
+    color:#002D70;
+}
+
+
+table{
+    padding: 0 40px;
+    th{
+        border: solid black 1px;
+        padding: 5px;
+    }
+}
+
+img{
+    border-radius: 100%;
+}
+
+.hrBcg {
+    background-color: var(--azul-100);
+}
+
+.subline {
+    background-color: var(--azul-200);
+
+    width: 8em;
+}
+.sublimeformacao{
+    background-color: var(--azul-200);
+
+    width: 10em;
+}
+p.justificado {
+    text-align: justify;
+}
+.tab{
+    margin-left: 1em;
+}
+#apresentacao{
+    margin-top: 6rem;
+}
+div{
+    scroll-margin-top: 6rem;
+
+}
+nav{
+    padding: 1.5rem;
+    a{
+        color: var(--azul-100);
+        text-decoration: none;
+    }
+}
