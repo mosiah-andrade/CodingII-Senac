@@ -1,7 +1,5 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* margin-left: 5em; */
-    /* margin-right: 5rem; */
     background-color: #F5FAFC;
     font-size: 1.1em;
 }
@@ -73,9 +71,15 @@ div{
 
 }
 nav{
-    padding: 1.5rem;
+    padding: 0.5rem;
     a{
         color: var(--azul-100);
         text-decoration: none;
+        
+        &:hover{
+            color: var(--azul-700);
+            text-decoration: underline;
+            transition: all 0.3s ease;
+        }
     }
 }

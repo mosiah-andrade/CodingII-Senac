@@ -13,13 +13,14 @@
 </head>
 
 <body>
-    <nav id="menuMosiah" class="fixed-top d-flex bg-primary justify-content-end" data-bs-theme="dark">
+    <nav id="menuMosiah" class="fixed-top d-flex bg-primary justify-content-end align-items-center" data-bs-theme="dark">
         <div class="container-fluid d-flex justify-content-end">
             <a class="menuMosiah mx-4" href="#apresentacao">Mosiah Andrade</a>
             <a class="menuMosiah mx-4" href="#sobre"> Sobre</a>
             <a class="menuMosiah mx-4" href="#formacao"> Formação</a>
             <a class="menuMosiah mx-4" href="#experiencia"> Experiencia Profissional</a>
             <a class="menuMosiah mx-4" href="#habilidades"> Habilidades</a>
+            <a class="menuMosiah mx-4" href="#contato"> Contato</a>
             <a class="menuMosiah mx-4" href="#endereco"> Endereço</a>
         </div>
     </nav>
@@ -41,8 +42,7 @@
         <div id="sobre" class="container">
             <h2>Sobre</h2>
             <div class="card my-2 hrBcg subline"></div>
-            <p class="justificado container">Desennvolvedor Back-end em formação pela Faculdade Senac PE, do curso de ADS do 2° Periodo, em busca de uma
-                oportunidade de estágio na área de desenvolvimento.
+            <p class="justificado container">Desenvolvedor Back-end em formação pela Faculdade Senac PE, cursando o 2° período de Análise e Desenvolvimento de Sistemas. Busco uma oportunidade de estágio na área de desenvolvimento para aplicar meus conhecimentos e aprimorar minhas habilidades técnicas. Tenho interesse em trabalhar com tecnologias modernas, aprender continuamente e contribuir com soluções inovadoras.
                 <br>
                 <br>
                 <b>Contato:</b>
@@ -78,26 +78,26 @@
             <div class="container">
                 <ul>
                     <li>
-                        <a href="https://www.byupathway.edu/bachelors-degree/software-development" target="_blank" >
+                        <a href="https://www.byupathway.edu/bachelors-degree/software-development" target="_blank" class="text-decoration-none">
                             Graduação Em Andamento - Software Development
                         </a>
                     </li>
         
                     <dd>
-                        <a href="https://www.byui.edu/" target="_blank">
+                        <a href="https://www.byui.edu/" target="_blank" class="text-decoration-none">
                             - Brigham Young University
                         </a> 
                         ( 2023 - 2028 )
                     </dd>
                     
                     <li>
-                        <a href="https://faculdadesenacpe.edu.br/graduacao/analise-e-desenvolvimento-de-sistemas" target="_blank" >
+                        <a href="https://faculdadesenacpe.edu.br/graduacao/analise-e-desenvolvimento-de-sistemas" target="_blank" class="text-decoration-none" >
                             Graduação Em Andamento - Analise e Desenvolvimento de Sistemas
                         </a>
                     </li>
         
                     <dd>
-                        <a href="https://faculdadesenacpe.edu.br/" target="_blank">
+                        <a href="https://faculdadesenacpe.edu.br/" target="_blank" class="text-decoration-none">
                             - Faculdade Senac PE
                         </a> 
                         (2024 - 2027)
@@ -193,6 +193,34 @@
                     </ol>
                 </ol>
         </div>
+        <div id="contato" class="container ">
+            <div class="card my-2 hrBcg"></div>
+            <h2>Contato</h2>
+            <form  class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <div class="invalid-feedback">
+                Por favor, insira seu nome.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
+                <div class="invalid-feedback">
+                Por favor, insira um email válido.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                <div class="invalid-feedback">
+                Por favor, insira sua mensagem.
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
         <div id="endereco" class="container">
             <div class="card my-2 hrBcg"></div>
             <h2>Endereço</h2>
@@ -201,6 +229,7 @@
             </div>
         </div>
             
+        
     </main>
 </body>
 <footer>
