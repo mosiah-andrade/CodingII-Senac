@@ -52,6 +52,14 @@ img{
 
     width: 8em;
 }
+#experiencia .subline{
+    width: 20em;
+
+}
+#habilidades .subline{
+    width: 10em;
+
+}
 .sublimeformacao{
     background-color: var(--azul-200);
 
@@ -82,4 +90,33 @@ nav{
             transition: all 0.3s ease;
         }
     }
+}
+button.formulario {
+    background-color: var(--azul-700);
+    color: var(--branco);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.formulario:hover {
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+th.curriculo {
+    background-color: var(--cor3);
+    color: var(--corBranca);
+    padding: 0.5em;
+    text-align: center;
+}
+
+th.largo20{
+    width: 20%;
+}
+
+th.largo10{
+    width: 10%;
 }
