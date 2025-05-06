@@ -120,3 +120,54 @@ th.largo20{
 th.largo10{
     width: 10%;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  fieldset {
+    border: 2px solid #002D70;
+    border-radius: 10px;
+    padding: 2rem 5rem ;
+    background-color: #ffffff;
+  }
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--azul-700);
+  }
+  label {
+    margin-top: 10px;
+    display: block;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  .botoes {
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #enviar {
+    background-color: #2a9d8f;
+    color: white;
+  }
+  #limpar {
+    background-color: #e76f51;
+    color: white;
+  }
